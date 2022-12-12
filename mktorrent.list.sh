@@ -9,5 +9,5 @@ readarray -t trackersListArray < $trackersListFile
 
 
 for t in ${trackersListArray[@]}; do
-  echo -n  "-w" $t " "
+  echo -n  "-a" $t " "
 done
